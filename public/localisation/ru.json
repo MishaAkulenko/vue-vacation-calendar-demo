@@ -1,0 +1,22 @@
+{
+  "auth": {
+    "login": "Войти",
+    "vacation_manager": "Менеджер отпусков",
+    "enter_login": "Введите любой логин",
+    "enter_password": "Введите любой пароль",
+    "prompt": "Введите любой логин пароль и получите доступ к главной странице"
+  },
+  "common": {
+    "day": "день",
+    "the_day": "дня",
+    "days": "дней"
+  },
+  "dashboard": {
+    "avail_days": "Вам доступно {days} {dayLocale} отпуска",
+    "reserved": "Зарезервировано {days} {dayLocale}"
+  },
+  "user_settings": {
+    "settings": "Настройки",
+    "logout": "Выйти"
+  }
+}

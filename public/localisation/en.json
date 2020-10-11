@@ -1,0 +1,22 @@
+{
+  "auth": {
+    "login": "Login",
+    "vacation_manager": "Vacation manager",
+    "enter_login": "Enter any username",
+    "enter_password": "Enter any password",
+    "prompt": "Enter any login password and get access to the main page"
+  },
+  "common": {
+    "day": "day",
+    "the_day": "days",
+    "days": "days"
+  },
+  "dashboard": {
+    "avail_days": "You have {days} {dayLocale} of vacation available",
+    "reserved": "Reserved {days} {dayLocale}"
+  },
+  "user_settings": {
+    "settings": "Settings",
+    "logout": "Logout"
+  }
+}

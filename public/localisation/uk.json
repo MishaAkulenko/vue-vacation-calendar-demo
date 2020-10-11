@@ -1,0 +1,22 @@
+{
+  "auth": {
+    "login": "Увійти",
+    "vacation_manager": "Менеджер відпусток",
+    "enter_login": "Введіть будь-який логін",
+    "enter_password": "Введіть будь-який пароль",
+    "prompt": "Введіть будь-логін пароль і отримаєте доступ до головної сторінки"
+  },
+  "common": {
+    "day": "день",
+    "the_day": "дня",
+    "days": "днів"
+  },
+  "dashboard": {
+    "avail_days": "Вам доступно {days} {dayLocale} відпустки",
+    "reserved": "Зарезервовано {days} {dayLocale}"
+  },
+  "user_settings": {
+    "settings": "Налаштування",
+    "logout": "Вийти"
+  }
+}

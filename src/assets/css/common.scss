@@ -1,0 +1,87 @@
+@import '../../../node_modules/normalize.css/normalize.css';
+@import 'fonts';
+
+body {
+  font-family: 'Nunito', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  list-style: none;
+  box-sizing: border-box;
+  &:hover {
+    color: #fff;
+  }
+}
+div {
+  box-sizing: border-box;
+}
+ul{
+  margin: 0;
+  padding: 0;
+  li {
+    list-style: none;
+  }
+}
+.flex, .visible-flex {
+  display: flex;
+}
+.flex-center  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex-end  {
+  display: flex;
+  justify-content: flex-end;
+}
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.hidden {
+  display: none;
+}
+.visible {
+  display: block;
+}
+
+button{
+  &:focus {
+    outline: none;
+  }
+}
+
+.text-ellipsis {
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.splash-screen {
+  position: fixed;
+  z-index: 99999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #f9f9f9 url(../img/loader.svg) center center no-repeat;
+  background-size: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  img {
+    filter: brightness(0.2);
+  }
+}
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
