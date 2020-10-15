@@ -1,5 +1,6 @@
 # yellow-duck-vue
 
+Link to web app https://vacation-calendar-eeac5.web.app/
 ## Project setup
 ```
 npm install
