@@ -1,9 +1,9 @@
 import Vue from 'vue';
 
-export default (()=>{
+export default (() => {
   Vue.directive('focus', {
-    inserted: function (el) {
-      el.focus()
-    }
+    inserted: function(el) {
+      el.focus();
+    },
   });
-})()
+})();

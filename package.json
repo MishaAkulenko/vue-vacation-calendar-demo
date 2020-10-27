@@ -25,7 +25,8 @@
     "@vue/cli-plugin-eslint": "^4.5.0",
     "@vue/cli-service": "^4.5.0",
     "babel-eslint": "^10.1.0",
-    "eslint": "^6.7.2",
+    "eslint": "^6.8.0",
+    "eslint-config-google": "^0.14.0",
     "eslint-plugin-vue": "^6.2.2",
     "vue-template-compiler": "^2.6.11"
   },
@@ -35,13 +36,32 @@
       "node": true
     },
     "extends": [
+      "google",
       "plugin:vue/essential",
       "eslint:recommended"
     ],
     "parserOptions": {
       "parser": "babel-eslint"
     },
-    "rules": {}
+    "rules": {
+      "require-jsdoc": "off",
+      "camelcase": [
+        "error",
+        {
+          "ignoreDestructuring": true
+        }
+      ],
+      "max-len": [
+        "error",
+        {
+          "ignoreTrailingComments": true,
+          "ignoreUrls": true,
+          "ignoreTemplateLiterals": true,
+          "ignoreRegExpLiterals": true,
+          "ignoreStrings": true
+        }
+      ]
+    }
   },
   "browserslist": [
     "> 1%",

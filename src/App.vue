@@ -8,11 +8,11 @@
 
 export default {
   name: 'App',
-}
+};
 </script>
 
 <style lang="scss">
-  .root {
-    min-height: 100vh;
-  }
+.root {
+  min-height: 100vh;
+}
 </style>
